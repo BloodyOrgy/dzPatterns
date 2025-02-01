@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90a6b7cf-7044-4ac9-a198-734774fb2569" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/data/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/DeliveryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/DeliveryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -59,6 +61,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.DeliveryTest.shouldSuccessfulPlanAndReplanMeeting.executor": "Run",
+    "Gradle.DeliveryTest.shouldSuccessfulPlanMeeting.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -71,7 +74,7 @@
       <recent name="E:\obuchenie\zadanie6\patterns\untitled\artifacts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.DeliveryTest.shouldSuccessfulPlanMeeting">
     <configuration name="DeliveryTest.shouldSuccessfulPlanAndReplanMeeting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -96,8 +99,33 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="DeliveryTest.shouldSuccessfulPlanMeeting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.DeliveryTest.shouldSuccessfulPlanMeeting&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeliveryTest.shouldSuccessfulPlanMeeting" />
         <item itemvalue="Gradle.DeliveryTest.shouldSuccessfulPlanAndReplanMeeting" />
       </list>
     </recent_temporary>
